@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
+body {
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+main {
+  margin: 50px;
+}
+
+
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-image: url('../img/donuts_homepage.jpeg');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero a:hover {
+  color: white;
+  opacity: 0.8;
+  text-shadow: none;
+  border: none;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .cta {
+    /* Positioning and sizing */
+    display: block;
+    width: 400px;
+    opacity: 1.0;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.08em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Border styles */
+    border-radius: 2px;
+
+    /* Background styles */
+    background-color: #e50914;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.background-color-brown{
+  background: #F4A460
+}
+
+h1 {
+  color: white
+}
+
+p {
+  color: white
+}
+
+.background-color-glazed{
+  background: #DEB887
+}
+
+.red{
+  background: red;
+}
+
+.background-color-chocolate{
+  background: #2a1506
+}
+
+
+.imagecenter{
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.buttoncenter{
+  margin-left: 675px;
+  margin-top: 3%;
+}
+
+a.btn {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+.button {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.buttonred {
+  background: red;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.buttonbrown {
+  background: #F4A460;
+  padding-left: 16px;
+  padding-right: 16px;
+}
